@@ -1,0 +1,16 @@
+
+* { box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, 'Noto Sans KR', sans-serif; margin: 0; }
+.container { width: 360px; padding: 12px; }
+h1 { font-size: 18px; margin: 0 0 8px; }
+.search-row { display: flex; gap: 8px; }
+#query { flex: 1; padding: 8px; border: 1px solid #ddd; border-radius: 8px; }
+button { padding: 8px 10px; border: 1px solid #ccc; border-radius: 8px; background: #f7f7f7; cursor: pointer; }
+button:hover { background: #eee; }
+.options-row { display: flex; gap: 12px; align-items: center; margin: 10px 0 6px; font-size: 12px; }
+.favorites { border-top: 1px solid #eee; margin-top: 10px; padding-top: 8px; }
+.fav-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+#favList { list-style: none; padding: 0; margin: 0; max-height: 180px; overflow: auto; }
+#favList li { display: flex; justify-content: space-between; align-items: center; border: 1px solid #eee; padding: 6px 8px; border-radius: 8px; margin-bottom: 6px; font-size: 13px; }
+#favList li span { flex: 1; padding-right: 8px; }
+.hint { color: #666; font-size: 11px; margin-top: 10px; }
